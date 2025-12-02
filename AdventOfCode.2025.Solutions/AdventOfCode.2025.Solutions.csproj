@@ -1,0 +1,12 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <RootNamespace>AdventOfCode._2025.Solutions</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AdventOfCode.Abstractions\AdventOfCode.Abstractions.csproj" />
+      <ProjectReference Include="..\AdventOfCode.Application\AdventOfCode.Application.csproj" />
+    </ItemGroup>
+
+</Project>

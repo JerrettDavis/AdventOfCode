@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <OutputType>Exe</OutputType>
+        <UserSecretsId>5514cc41-fbc4-4204-93b1-2d45635983c2</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Data.Sqlite" />
+      <PackageReference Include="Microsoft.Extensions.Hosting" />
+      <PackageReference Include="Microsoft.Extensions.Http" />
+      <PackageReference Include="System.CommandLine" />
+      <PackageReference Include="System.Security.Cryptography.ProtectedData" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\AdventOfCode.2025.Solutions\AdventOfCode.2025.Solutions.csproj" />
+      <ProjectReference Include="..\AdventOfCode.Application\AdventOfCode.Application.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Update="appsettings.json">
+        <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>
+    </ItemGroup>
+
+</Project>

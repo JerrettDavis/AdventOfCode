@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Project Path="AdventOfCode.2025.Solutions/AdventOfCode.2025.Solutions.csproj" />
+  <Project Path="AdventOfCode.Abstractions/AdventOfCode.Abstractions.csproj" />
+  <Project Path="AdventOfCode.Application/AdventOfCode.Application.csproj" />
+  <Project Path="AdventOfCode.Console/AdventOfCode.Console.csproj" />
+  <Project Path="AdventOfCode.Tests/AdventOfCode.Tests.csproj" />
+</Solution>
