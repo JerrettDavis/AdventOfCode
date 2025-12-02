@@ -18,6 +18,9 @@ public class BrowserTokenInjector(IOptionsSnapshot<AppSettings> settingsSnapshot
         HttpRequestMessage request,
         CancellationToken cancellationToken)
     {
+        if (!string.IsNullOrEmpty(settingsSnapshot.Value.Token))
+            _cachedSession = settingsSnapshot.Value.Token;
+        
         if (string.IsNullOrEmpty(_cachedSession))
         {
             _cachedSession =

@@ -16,12 +16,12 @@ public class Day1(
     /// <summary>
     /// Counts how many instructions end with the dial resting on zero.
     /// </summary>
-    public override int SolveA() => RunSimulation().ZeroRests;
+    public override long SolveA() => RunSimulation().ZeroRests;
 
     /// <summary>
     /// Counts how many individual clicks land on zero while processing the instructions.
     /// </summary>
-    public override int SolveB() => RunSimulation().ZeroTouches;
+    public override long SolveB() => RunSimulation().ZeroTouches;
 
     /// <inheritdoc />
     public override int Year => 2025;

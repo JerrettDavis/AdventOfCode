@@ -44,7 +44,7 @@ public abstract class BaseSolution : ISolution
     /// <inheritdoc />
     public abstract int Day { get; }
     /// <inheritdoc />
-    public abstract int SolveA();
+    public abstract long SolveA();
     /// <inheritdoc />
-    public abstract int SolveB();
+    public abstract long SolveB();
 }

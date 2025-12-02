@@ -1,14 +1,16 @@
 ﻿using System.CommandLine;
 using AdventOfCode.Abstractions;
 using AdventOfCode.Application;
-using AdventOfCode.Console;
 using AdventOfCode.Console.Browser;
+using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 
 
 var builder = Host.CreateApplicationBuilder(args);
+
+builder.Configuration.AddUserSecrets(typeof(Program).Assembly);
 
 builder.Services
     .Configure<AppSettings>(builder.Configuration)
