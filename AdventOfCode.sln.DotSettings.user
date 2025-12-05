@@ -7,17 +7,12 @@
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fjd_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E3_003Fresharper_002Dhost_003FSourcesCache_003F2b96c8bf4a9d6255c4ef368170791bb2a79ddaee27447292bb44be573914f9ef_003FString_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AString_002EManipulation_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fjd_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E3_003Fresharper_002Dhost_003FSourcesCache_003F99c32020cb38b51da0122b84a8dfd54f5d1bbd6ac327af1dd4da89595c27cd_003FString_002EManipulation_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
 	<s:String x:Key="/Default/CodeInspection/ExcludedFiles/FilesAndFoldersToSkip2/=7020124F_002D9FFC_002D4AC3_002D8F3D_002DAAB8E0240759_002Ff_003AWhere_002Ecs_002Fl_003A_002E_002E_003F_002E_002E_003FUsers_003Fjd_003FAppData_003FRoaming_003FJetBrains_003FRider2025_002E3_003Fresharper_002Dhost_003FSourcesCache_003F494e6d83d6d62b765c56bdcf47e1615cea109f755d152e6bce86d38a5d20f0_003FWhere_002Ecs/@EntryIndexedValue">ForceIncluded</s:String>
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=1fe27d12_002Dd8a2_002D4582_002Db4fc_002D3ec81ea415d5/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Part2_SmokeTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=7e3c0f8c_002D5e48_002D4621_002Db634_002D3766b84629f9/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="Part2_SmokeTest" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
   &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::2DDA445E-9EC4-5A04-DA51-369429CEC580::net10.0::AdventOfCode.Tests._2025.Day3Tests.Part2_SmokeTest&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::2DDA445E-9EC4-5A04-DA51-369429CEC580::net10.0::AdventOfCode.Tests._2025.Day4Tests.Part2_SmokeTest&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String>
 	
-	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=8b5f5610_002D6ba9_002D4029_002Daf53_002D55357761329e/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" Name="Part1_RealData" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;&#xD;
-  &lt;TestAncestor&gt;&#xD;
-    &lt;TestId&gt;xUnit::2DDA445E-9EC4-5A04-DA51-369429CEC580::net10.0::AdventOfCode.Tests._2025.Day1Tests&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2DDA445E-9EC4-5A04-DA51-369429CEC580::net10.0::AdventOfCode.Tests._2025.Day3Tests.Part1_SmokeTest&lt;/TestId&gt;&#xD;
-    &lt;TestId&gt;xUnit::2DDA445E-9EC4-5A04-DA51-369429CEC580::net10.0::AdventOfCode.Tests._2025.Day3Tests.Part2_SmokeTest&lt;/TestId&gt;&#xD;
-  &lt;/TestAncestor&gt;&#xD;
-&lt;/SessionState&gt;</s:String>
+	
+	
 	</wpf:ResourceDictionary>
