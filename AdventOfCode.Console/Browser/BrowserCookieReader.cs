@@ -34,15 +34,32 @@ static class BrowserCookieReader
         string profileName = "Default")
     {
         var cookieDbPath = GetCookieDbPath(browser, profileName);
-        if (!File.Exists(cookieDbPath))
+        var tempPath = Path.GetTempFileName();
+        try
         {
-            await System.Console.Error.WriteLineAsync($"Cookie database not found: {cookieDbPath}");
+            if (!File.Exists(cookieDbPath))
+            {
+                await System.Console.Error.WriteLineAsync($"Cookie database not found: {cookieDbPath}");
+                return null;
+            }
+
+            // Copy DB to temp file to avoid locking issues
+            File.Copy(cookieDbPath, tempPath, overwrite: true);
+        }
+        catch (Exception e)
+        {
+            await System.Console.Error.WriteLineAsync($"Error accessing cookie database: {e.Message}");
+            try
+            {
+                File.Delete(tempPath);
+            }
+            catch
+            {
+                /* ignore */
+            }
             return null;
         }
-
-        // Copy DB to temp file to avoid locking issues
-        var tempPath = Path.GetTempFileName();
-        File.Copy(cookieDbPath, tempPath, overwrite: true);
+      
 
         try
         {

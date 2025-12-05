@@ -9,5 +9,5 @@ namespace AdventOfCode.Tests;
 class TestDataFetcher(string data) : IDataFetcher
 {
     /// <inheritdoc />
-    public ValueTask<string> GetData() => new(data);
+    public ValueTask<string> GetData() => new(data.ReplaceLineEndings("\n"));
 }
